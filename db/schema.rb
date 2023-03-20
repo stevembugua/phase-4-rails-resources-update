@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2021_05_02_132944) do
     t.string "species"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "likes", default: 0, null: false
   end
 
 end
